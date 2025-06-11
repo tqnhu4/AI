@@ -1,0 +1,99 @@
+{
+    "programming": [
+      "Python",
+      "Java",
+      "C++",
+      "Go",
+      "JavaScript",
+      "SQL",
+      "R",
+      "Ruby",
+      "PHP",
+      "C#"
+    ],
+    "web_development": [
+      "HTML",
+      "CSS",
+      "React",
+      "Angular",
+      "Vue.js",
+      "Node.js",
+      "Django",
+      "Flask",
+      "Streamlit",
+      "REST API",
+      "GraphQL",
+      "TypeScript"
+    ],
+    "cloud_platforms": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "CloudFormation"
+    ],
+    "data_science_ml": [
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "Matplotlib",
+      "Seaborn",
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "Computer Vision",
+      "Data Analysis",
+      "Statistical Modeling"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite",
+      "Redis",
+      "NoSQL"
+    ],
+    "project_management": [
+      "Agile",
+      "Scrum",
+      "Kanban",
+      "Jira",
+      "Trello",
+      "Project Planning",
+      "Stakeholder Management"
+    ],
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving",
+      "Leadership",
+      "Adaptability",
+      "Critical Thinking",
+      "Collaboration",
+      "Time Management",
+      "Presentation Skills"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Vietnamese",
+      "Mandarin"
+    ],
+    "tools_and_os": [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Jupyter Notebook",
+      "VS Code",
+      "Linux",
+      "Windows",
+      "macOS"
+    ]
+}
