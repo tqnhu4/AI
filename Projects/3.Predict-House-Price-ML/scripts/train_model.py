@@ -20,7 +20,7 @@ def train_and_save_model():
     # Step 2: Select features and target variable
     # Adjust these columns depending on your dataset
     features = ['GrLivArea', 'BedroomAbvGr', 'FullBath', 'YearBuilt', 'LotArea', 'Neighborhood']
-    target = 'SalePrice']
+    target = 'SalePrice'
 
     # Remove rows with NaN values in important columns (customize)
     df.dropna(subset=features + [target], inplace=True)
