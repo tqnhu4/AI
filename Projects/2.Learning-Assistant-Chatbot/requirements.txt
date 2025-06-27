@@ -1,0 +1,7 @@
+langchain
+openai
+faiss-cpu
+sentence-transformers
+tiktoken
+python-dotenv
+streamlit # For a simple web UI
