@@ -45,6 +45,43 @@ This code will demonstrate the main components:
 ```
 -----
 
+### 🔄 Project Flow
+
+```mermaid
+graph TD
+    A[Start Application] --> B{0. Environment Setup};
+    B --> C[Load .env & Check OpenAI API Key];
+    C -- API Key Missing? --> D{Display Error & Stop};
+    C -- API Key OK --> E[1. Data Preparation];
+    E --> F[Define/Load Sample Learning Content];
+    F --> G[2. Text Splitting];
+    G --> H[Split Content into Chunks (CharacterTextSplitter)];
+    H --> I[3. Embeddings Creation];
+    I --> J[Generate Embeddings for Chunks (OpenAIEmbeddings)];
+    J --> K[4. FAISS Indexing (Vector Store)];
+    K --> L{Create FAISS Vector Store from Embeddings};
+    L -- Success --> M[5. Initialize LLM & Prompt];
+    L -- Error --> D;
+    M --> N[Initialize OpenAI LLM];
+    N --> O[Define Custom Prompt Template];
+    O --> P[6. Build LangChain RAG Pipeline];
+    P --> Q[Create RetrievalQA Chain (LLM + Retriever + Prompt)];
+    Q --> R[7. Initialize Streamlit UI];
+    R --> S[Set Page Config & Display Header];
+    S --> T[Initialize/Display Chat History];
+    T --> U{8. User Input};
+    U -- User Enters Query --> V[Display User Message];
+    V --> W[Add User Message to Chat History];
+    W --> X[9. Process Query];
+    X --> Y[Retrieve Relevant Context (Vector Store FAISS)];
+    Y --> Z[Generate LLM Response (RAG Chain)];
+    Z --> AA[10. Display Response];
+    AA --> BB[Display Assistant Response];
+    BB --> CC[Add Assistant Message to Chat History];
+    CC --> U;
+    D[End Application (Error)]
+```
+
 ## 📁 Project Structure (Recommended)
 
 ```
