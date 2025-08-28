@@ -4,9 +4,6 @@
 This plan outlines the steps to build a functional Automatic Text Summarization tool, based on the previous description. We'll create a simple web application where users can input text or upload a PDF, and then get a concise summary powered by a pre-trained AI model.
 
 -----
-Chắc chắn rồi\! Dưới đây là bản chỉnh sửa toàn bộ bài viết dự án, tập trung vào cách trình bày rõ ràng, mạch lạc và chuyên nghiệp hơn, kèm theo các biểu tượng và cấu trúc theo yêu cầu của bạn:
-
------
 
 ## 🧠 5. Automatic Text Summarization Project
 

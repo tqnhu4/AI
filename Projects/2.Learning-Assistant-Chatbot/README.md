@@ -177,16 +177,3 @@ ask_chatbot("I want to learn about lambda functions in Python.") # Out-of-scope 
       * Build a user interface (web app with Flask/Streamlit, mobile app).
       * Integrate user feedback to improve answer quality.
 
------
-
-## ⏭️ Next Steps to Develop the Application
-
-1.  **Expand Data Sources**: Instead of just one `.txt` file, try loading `.pdf` files, web pages, or multiple `.txt` files in a directory using LangChain's `DirectoryLoader`.
-2.  **Improve Data Quality**: Ensure your source data is clear and accurate. "Garbage in, garbage out" still applies to AI\!
-3.  **Add a User Interface**:
-      * **Web App (Flask/Streamlit)**: Create an interface where users can input questions and see answers. Streamlit is a quick option for demos.
-      * **CLI (Command Line Interface)**: Create a loop in Python for continuous user input.
-4.  **Optimize Parameters**: Experiment with `chunk_size`, `chunk_overlap`, and the LLM's `temperature` to see how they affect answer quality.
-5.  **Handle Out-of-Scope Questions**: How should the chatbot respond when a user asks a question not covered by the training data? (e.g., "Tell me a joke.")
-
-This project is a valuable addition to your portfolio. Good luck building it\!

@@ -1,0 +1,11 @@
+employee_id,name,date,status
+1,Alice,2024-01-01,Work
+1,Alice,2024-01-02,Leave
+1,Alice,2024-01-03,Work
+2,Bob,2024-01-01,Work
+2,Bob,2024-01-02,Work
+3,Charlie,2024-01-01,Work
+3,Charlie,2024-01-02,Leave
+3,Charlie,2024-01-03,Work
+1,Alice,2024-01-04,Work
+2,Bob,2024-01-03,Leave
