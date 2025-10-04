@@ -67,6 +67,11 @@ An e-commerce platform allows sellers to **upload product images**. However:
 
 ---
 
+### 🚀 Diagram
+![Diagram](./doc/diagram.png)
+
+---
+
 ### 📋 Example Output
 
 Uploaded image: `somi123.jpg`
