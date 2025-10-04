@@ -9,7 +9,6 @@ An e-commerce platform allows sellers to **upload product images**. However:
 * Images need to be categorized into **product groups** (clothing, phones, cosmetics, food, etc.) to support automatic tagging.
 
 ---
-
 ### 🎯 Requirements
 
 1. **Image Moderation**
@@ -158,3 +157,6 @@ GSIs:
 * Add a whitelist/blacklist logo check (using image matching or embedding + similarity).
 * Provide additional APIs (API Gateway + Lambda) to query image lists by score or with filters.
 * Record events into an audit log and visualize them in a dashboard (CloudWatch / QuickSight).
+
+---
+[![Watch the video](https://img.youtube.com/vi/HDzT4YVIO-o/0.jpg)](https://www.youtube.com/watch?v=HDzT4YVIO-o)
