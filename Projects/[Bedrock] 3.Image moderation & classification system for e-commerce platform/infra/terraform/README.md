@@ -1,0 +1,1 @@
+Write a CloudFormation / SAM / Terraform template to deploy the entire stack (S3, Lambda, DynamoDB, IAM).
